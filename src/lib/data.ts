@@ -1,10 +1,8 @@
 import webrpldark from "../../public/images/web-rpl.png"
 import webrpllight from "../../public/images/web-rpl-light.png"
-import corpcommentImg from "../../public/projects/corpcomment.png";
-import rmtdevImg from "../../public/projects/rmtdev.png";
-import wordanalyticsImg from "../../public/projects/wordanalytics.png";
-import tailwind from "../../public/certificates/tailwind.jpg"
-import dicoding from "../../public/certificates/dicoding.png"
+import javascript from "../../public/certificates/Belajar_dasar_pemrograman_javascript.png"
+import tailwind from "../../public/certificates/Membuat_Halaman_Website_Portofolio_Menggunakan_Tailwind_CSS.jpg"
+import software from "../../public/certificates/Memulai_dasar_pemrograman_untuk_menjadi_pengembang_software.png"
 import github from "../../public/icons/github.svg"
 import instagram from "../../public/icons/instagram.svg"
 import gmail from "../../public/icons/gmail.svg"
@@ -87,15 +85,20 @@ export const skills = [
 
 export const certificates = [
   {
-    title: "Front-End Developer",
-    description: "Coursera",
-    imageUrl: dicoding
+    title: "Javascript",
+    description: "Belajar dasar pemrograman javascript",
+    imageUrl: javascript
   },
   {
-    title: "Front-End Developer",
-    description: "Coursera",
+    title: "Tailwind",
+    description: "Membuat Halaman Website Portofolio Menggunakan Tailwind CSS",
     imageUrl: tailwind
-  }
+  },
+  {
+    title: "Pengembang Software",
+    description: "dasar pemrograman untuk menjadi pengembang software",
+    imageUrl: software
+  },
 ]
 
 export const projects = [
