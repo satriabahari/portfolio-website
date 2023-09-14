@@ -54,16 +54,8 @@ export const skills = [
     icon: "/icons/javascript.svg",
   },
   {
-    name: "NodeJS",
-    icon: "/icons/nodejs.svg",
-  },
-  {
-    name: "MySQL",
-    icon: "/icons/mysql.svg",
-  },
-  {
-    name: "MongoDB",
-    icon: "/icons/mongodb.svg",
+    name: "Typescript",
+    icon: "/icons/typescript.svg"
   },
   {
     name: "Bootstrap",
@@ -74,6 +66,14 @@ export const skills = [
     icon: "/icons/tailwindcss.svg",
   },
   {
+    name: "NodeJS",
+    icon: "/icons/nodejs.svg",
+  },
+  {
+    name: "Express JS",
+    icon: "/icons/express-js.svg"
+  },
+  {
     name: "ReactJS",
     icon: "/icons/react.svg",
   },
@@ -81,6 +81,16 @@ export const skills = [
     name: "NextJS",
     icon: "/icons/next-js.svg",
   },
+  {
+    name: "MySQL",
+    icon: "/icons/mysql.svg",
+  },
+  {
+    name: "MongoDB",
+    icon: "/icons/mongodb.svg",
+  },
+  
+  
 ] as const;
 
 export const certificates = [
