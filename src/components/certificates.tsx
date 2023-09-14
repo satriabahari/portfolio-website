@@ -22,7 +22,7 @@ export default function Certificates() {
   return (
     <section id='certificates' className='mb-32 scroll-mt-28'>
       <SectionHeading>My Certificates.</SectionHeading>
-      <div className='grid grid-cols-3 gap-8'>
+      <div className='grid md:grid-cols-3 grid-cols-1 gap-8'>
         {
           certificates.map((certificate, index) => (
             <motion.div key={index} variants={fadeInAnimationVariants}
